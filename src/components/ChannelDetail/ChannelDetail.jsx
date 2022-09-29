@@ -1,7 +1,7 @@
 import { useState,useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Box } from '@mui/material';
-import {Videos, ChannelCard } from './';
+import {Videos, ChannelCard } from '../';
 import {ytAPI } from '../../utils/ytAPI'
 
 const ChannelDetail = () => {
